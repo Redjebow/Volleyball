@@ -23,9 +23,9 @@ public class PlayGame implements Playable {
             System.out.println("In the mach between " + team1.getName() + " and " + team2.getName() + " the result is a draw!" + powerTeam1 + " : " + powerTeam2);
         }
         try (BufferedWriter bw = new BufferedWriter(new FileWriter("results.txt", true))) {
-            bw.write("Match Day");
+            bw.write("Match day");
             bw.newLine();
-            bw.write("Data: " + curentData);
+            bw.write("Data:  " + curentData);
             bw.newLine();
             if (powerTeam1 > powerTeam2) {
                 bw.write("In the mach between " + team1.getName() + " and " + team2.getName() + " winner is: " + team1.getName() + " Result is : " + powerTeam1 + " : " + powerTeam2);
