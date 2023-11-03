@@ -18,7 +18,6 @@ public class VolleyballTeam implements Trainable, Restable {
         this.stadium = "Razgrad-Arena";
         this.coach = "Unnamed";
         this.players = players;
-
     }
 
     public String getName() {
