@@ -14,7 +14,7 @@ public class VolleyballTeam implements Trainable, Restable {
     }
 
     public VolleyballTeam(List<VolleyballPlayer> players) {
-        this.name = "Orli";
+        this.name = "Ludogorets";
         this.stadium = "Razgrad-Arena";
         this.coach = "Unnamed";
         this.players = players;
